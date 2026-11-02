@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#211711">
+    <meta name="description" content="Discover Kamole Coffee House in Kofele, Ethiopia. Explore our coffee menu, story, location, and opening hours.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Kamole Coffee House | Coffee, culture, community">
+    <meta property="og:description" content="A welcoming coffee house rooted in Ethiopia's rich coffee culture. Visit us in Kofele.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&amp;fit=crop&amp;w=1200&amp;q=80">
+    <title>Kamole Coffee House | Kofele, Ethiopia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&amp;family=Noto+Sans+Ethiopic:wght@400;500;600;700&amp;family=Work+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main" data-translate="skip_content">Skip to content</a>
+    <header class="site-header" id="header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a class="brand" href="#home" aria-label="Kamole Coffee House home">
+                <span class="brand-mark" aria-hidden="true"><i class="fa-solid fa-mug-hot"></i></span>
+                <span class="brand-copy"><strong>Kamole</strong><small data-translate="brand_subtitle">Coffee House</small></span>
+            </a>
+            <button class="nav-toggle icon-button" id="navToggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="navMenu">
+                <i class="fa-solid fa-bars" aria-hidden="true"></i>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active" data-translate="nav_home">Home</a></li>
+                <li><a href="#menu" class="nav-link" data-translate="nav_menu">Menu</a></li>
+                <li><a href="#story" class="nav-link" data-translate="nav_story">Our story</a></li>
+                <li><a href="#visit" class="nav-link" data-translate="nav_visit">Visit</a></li>
+            </ul>
+            <div class="header-actions">
+                <div class="language-selector">
+                    <button class="language-button" id="langToggle" type="button" aria-expanded="false" aria-controls="langMenu" aria-label="Choose language">
+                        <i class="fa-solid fa-globe" aria-hidden="true"></i><span id="currentLang">EN</span><i class="fa-solid fa-chevron-down chevron" aria-hidden="true"></i>
+                    </button>
+                    <ul class="lang-menu" id="langMenu" hidden>
+                        <li><button class="lang-option active" type="button" data-lang="en">English</button></li>
+                        <li><button class="lang-option" type="button" data-lang="am">አማርኛ</button></li>
+                        <li><button class="lang-option" type="button" data-lang="om">Afaan Oromoo</button></li>
+                    </ul>
+                </div>
+                <button class="theme-toggle icon-button" id="themeToggle" type="button" aria-label="Switch to dark theme">
+                    <i class="fa-solid fa-moon" aria-hidden="true"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="hero" id="home" aria-labelledby="heroTitle">
+            <div class="hero-image" role="img" aria-label="Coffee being prepared in a warm, welcoming coffee house"></div>
+            <div class="hero-shade"></div>
+            <div class="container hero-inner">
+                <div class="hero-copy reveal">
+                    <p class="eyebrow hero-eyebrow"><span class="eyebrow-line"></span><span data-translate="hero_eyebrow">A taste of Ethiopia, shared with you</span></p>
+                    <h1 id="heroTitle"><span data-translate="hero_title_line1">Coffee, culture,</span><br><em data-translate="hero_title_line2">community.</em></h1>
+                    <p class="hero-description" data-translate="hero_subtitle">Take a moment to slow down, share a cup, and feel at home at Kamole Coffee House.</p>
+                    <div class="hero-actions">
+                        <a class="button button-gold" href="#menu"><span data-translate="hero_button">Explore the menu</span><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                        <a class="text-link light-link" href="#story" data-translate="hero_story_link">Discover our story</a>
+                    </div>
+                    <div class="hero-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span data-translate="hero_location">Kofele, Oromia · Ethiopia</span></div>
+                </div>
+                <div class="hero-note reveal" aria-hidden="true">
+                    <span class="hero-note-rule"></span>
+                    <span data-translate="hero_note">Made for good conversations<br>and one more cup.</span>
+                </div>
+            </div>
+            <a href="#menu" class="scroll-cue" aria-label="Scroll to menu"><span></span></a>
+        </section>
+
+        <div class="values-strip" aria-label="Kamole Coffee House values">
+            <div class="container values-inner">
+                <span><i class="fa-solid fa-seedling" aria-hidden="true"></i><span data-translate="value_origin">Rooted in coffee country</span></span>
+                <span><i class="fa-solid fa-fire-burner" aria-hidden="true"></i><span data-translate="value_craft">Prepared with care</span></span>
+                <span><i class="fa-solid fa-people-group" aria-hidden="true"></i><span data-translate="value_gather">A place to gather</span></span>
+            </div>
+        </div>
+
+        <section class="section menu-section" id="menu" aria-labelledby="menuTitle">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <div>
+                        <p class="eyebrow"><span class="eyebrow-line"></span><span data-translate="menu_eyebrow">Made for your moment</span></p>
+                        <h2 id="menuTitle"><span data-translate="menu_title_line1">A cup worth</span><br><em data-translate="menu_title_line2">coming back for.</em></h2>
+                    </div>
+                    <p class="section-intro" data-translate="menu_intro">From a bold espresso to a slow, comforting cup, find a familiar favorite or try something new.</p>
+                </div>
+                <div class="menu-grid">
+                    <article class="menu-card menu-card-featured reveal">
+                        <div class="menu-card-image"><img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="A freshly prepared cup of espresso" loading="lazy" decoding="async"><span class="menu-badge"><i class="fa-solid fa-star" aria-hidden="true"></i><span data-translate="menu_note">A house favorite</span></span></div>
+                        <div class="menu-card-body"><div class="menu-card-title"><h3 data-translate="menu_item1_name">Classic Espresso</h3><span class="menu-price">30.00 ETB</span></div><p data-translate="menu_item1_desc">Rich and bold, our signature espresso shot made from premium Arabica beans.</p></div>
+                    </article>
+                    <article class="menu-card reveal">
+                        <div class="menu-card-image"><img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Cappuccino topped with soft milk foam" loading="lazy" decoding="async"></div>
+                        <div class="menu-card-body"><div class="menu-card-title"><h3 data-translate="menu_item2_name">Cappuccino</h3><span class="menu-price">30.00 ETB</span></div><p data-translate="menu_item2_desc">A balanced cup of espresso, steamed milk, and velvety foam.</p></div>
+                    </article>
+                    <article class="menu-card reveal">
+                        <div class="menu-card-image"><img src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="A creamy latte served in a ceramic cup" loading="lazy" decoding="async"></div>
+                        <div class="menu-card-body"><div class="menu-card-title"><h3 data-translate="menu_item3_name">Caramel Latte</h3><span class="menu-price">30.00 ETB</span></div><p data-translate="menu_item3_desc">Smooth espresso with steamed milk and a sweet caramel finish.</p></div>
+                    </article>
+                    <article class="menu-card reveal">
+                        <div class="menu-card-image"><img src="https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="A mocha coffee topped with a dusting of chocolate" loading="lazy" decoding="async"></div>
+                        <div class="menu-card-body"><div class="menu-card-title"><h3 data-translate="menu_item4_name">Mocha Delight</h3><span class="menu-price">30.00 ETB</span></div><p data-translate="menu_item4_desc">Chocolate and espresso brought together in a smooth, comforting cup.</p></div>
+                    </article>
+                    <article class="menu-card reveal">
+                        <div class="menu-card-image"><img src="https://images.unsplash.com/photo-1568901839119-631418a3910d?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="A glass of chilled coffee" loading="lazy" decoding="async"></div>
+                        <div class="menu-card-body"><div class="menu-card-title"><h3 data-translate="menu_item5_name">Cold Brew</h3><span class="menu-price">30.00 ETB</span></div><p data-translate="menu_item5_desc">Smooth, refreshing coffee steeped slowly and served chilled.</p></div>
+                    </article>
+                    <article class="menu-card reveal">
+                        <div class="menu-card-image"><img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="A flat white with delicate milk foam" loading="lazy" decoding="async"></div>
+                        <div class="menu-card-body"><div class="menu-card-title"><h3 data-translate="menu_item6_name">Flat White</h3><span class="menu-price">30.00 ETB</span></div><p data-translate="menu_item6_desc">Silky microfoam poured over a double shot of espresso.</p></div>
+                    </article>
+                </div>
+                <p class="menu-footnote" data-translate="menu_price_note">Menu and prices may change. Please confirm current availability when you visit.</p>
+            </div>
+        </section>
+
+        <section class="story-section" id="story" aria-labelledby="storyTitle">
+            <div class="story-photo reveal">
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Coffee beans and a freshly brewed cup on a wooden table" loading="lazy" decoding="async">
+                <span class="photo-caption" data-translate="story_image_caption">Coffee is better when shared.</span>
+            </div>
+            <div class="story-copy reveal">
+                <p class="eyebrow"><span class="eyebrow-line"></span><span data-translate="story_eyebrow">More than a cup</span></p>
+                <h2 id="storyTitle"><span data-translate="story_title_line1">A little pause.</span><br><em data-translate="story_title_line2">A lot of meaning.</em></h2>
+                <p data-translate="story_p1">In Ethiopia, coffee brings people together. It invites us to pause, talk, and make room for one another.</p>
+                <p data-translate="story_p2">Kamole Coffee House is a place to enjoy that spirit in your own way: over a quick espresso, a catch-up with friends, or a quiet moment to yourself.</p>
+                <a class="text-link" href="#visit"><span data-translate="story_link">Come spend a moment with us</span><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+        </section>
+
+        <section class="gallery-section section" aria-labelledby="galleryTitle">
+            <div class="container">
+                <div class="section-heading gallery-heading reveal">
+                    <div><p class="eyebrow"><span class="eyebrow-line"></span><span data-translate="gallery_eyebrow">The coffee-house feeling</span></p><h2 id="galleryTitle"><span data-translate="gallery_title_line1">A place to</span> <em data-translate="gallery_title_line2">stay awhile.</em></h2></div>
+                    <p class="section-intro" data-translate="gallery_intro">Good coffee, warm company, and a table waiting for you.</p>
+                </div>
+                <div class="gallery-grid">
+                    <figure class="gallery-item gallery-tall reveal"><img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="Warmly lit coffee shop interior" loading="lazy" decoding="async"></figure>
+                    <figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Coffee being poured into a cup" loading="lazy" decoding="async"></figure>
+                    <figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="A quiet cafe table ready for guests" loading="lazy" decoding="async"></figure>
+                </div>
+                <p class="image-note" data-translate="gallery_note">Gallery images are illustrative; replace with Kamole Coffee House photos.</p>
+            </div>
+        </section>
+
+        <section class="visit-section" id="visit" aria-labelledby="visitTitle">
+            <div class="container visit-layout">
+                <div class="visit-copy reveal">
+                    <p class="eyebrow"><span class="eyebrow-line"></span><span data-translate="visit_eyebrow">Your table is waiting</span></p>
+                    <h2 id="visitTitle"><span data-translate="visit_title_line1">Find your way</span><br><em data-translate="visit_title_line2">to Kamole.</em></h2>
+                    <p class="visit-intro" data-translate="visit_intro">We’re in Kofele, Oromia. Stop by for a cup and a little time well spent.</p>
+                    <div class="open-status">
+                        <span class="status-dot" aria-hidden="true"></span>
+                        <span id="openStatus" role="status" aria-live="polite" data-translate="status_checking">Checking today’s hours…</span>
+                    </div>
+                    <div class="visit-details">
+                        <div class="visit-detail">
+                            <span class="detail-icon"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></span>
+                            <div><h3 data-translate="info_address">Address</h3><p>Ethiopia, Oromia Region<br>West Arsi, Kofele, 02 Kebele</p></div>
+                        </div>
+                        <div class="visit-detail">
+                            <span class="detail-icon"><i class="fa-regular fa-clock" aria-hidden="true"></i></span>
+                            <div><h3 data-translate="info_hours">Opening hours</h3><p><span data-translate="hours_weekdays">Mon–Fri: 7:00 AM–8:00 PM</span><br><span data-translate="hours_weekend">Sat–Sun: 8:00 AM–9:00 PM</span></p></div>
+                        </div>
+                        <div class="visit-detail">
+                            <span class="detail-icon"><i class="fa-regular fa-envelope" aria-hidden="true"></i></span>
+                            <div><h3 data-translate="info_email">Email</h3><p><a href="mailto:bilalmuktar192@gmail.com">bilalmuktar192@gmail.com</a></p></div>
+                        </div>
+                    </div>
+                    <a class="button button-dark" href="https://www.google.com/maps/search/?api=1&amp;query=Kofele%2C%20Oromia%2C%20Ethiopia" target="_blank" rel="noopener noreferrer"><span data-translate="map_button">Open directions</span><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+                    <p class="location-note" data-translate="location_note">Map directions point to Kofele town; please confirm the shop’s exact pin.</p>
+                </div>
+                <div class="map-card reveal">
+                    <iframe title="Map showing Kofele, Oromia, Ethiopia" src="https://maps.google.com/maps?q=Kofele%2C%20Oromia%2C%20Ethiopia&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+                    <div class="map-label"><span class="map-pin"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></span><span><strong>Kamole Coffee House</strong><small data-translate="map_pin_note">Kofele, Ethiopia · Verify exact location</small></span></div>
+                </div>
+            </div>
+            <div class="container contact-panel reveal">
+                <div>
+                    <p class="eyebrow"><span class="eyebrow-line"></span><span data-translate="contact_eyebrow">Say hello</span></p>
+                    <h2 data-translate="contact_title">We’d love to hear from you.</h2>
+                    <p class="contact-note" data-translate="contact_note">Submitting opens your email app with a message ready to send.</p>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <label><span data-translate="form_name">Your name</span><input type="text" name="name" autocomplete="name" required></label>
+                    <label><span data-translate="form_email">Your email</span><input type="email" name="email" autocomplete="email" required></label>
+                    <label class="message-field"><span data-translate="form_message">Message</span><textarea name="message" rows="3" required></textarea></label>
+                    <button class="button button-dark" type="submit"><span data-translate="form_button">Prepare email</span><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-main">
+                <a class="brand footer-brand" href="#home">
+                    <span class="brand-mark" aria-hidden="true"><i class="fa-solid fa-mug-hot"></i></span>
+                    <span class="brand-copy"><strong>Kamole</strong><small data-translate="brand_subtitle">Coffee House</small></span>
+                </a>
+                <p data-translate="footer_message">Coffee, culture, and good company in Kofele.</p>
+                <a class="footer-email" href="mailto:bilalmuktar192@gmail.com">bilalmuktar192@gmail.com</a>
+            </div>
+            <div class="footer-bottom">
+                <span>© <span id="currentYear"></span> Kamole Coffee House</span>
+                <a href="#home" data-translate="back_top">Back to top ↑</a>
+            </div>
+        </div>
+    </footer>
+    <button class="back-to-top icon-button" id="backToTop" type="button" aria-label="Back to top"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i></button>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
