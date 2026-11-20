@@ -151,7 +151,10 @@ h2 em { color: var(--clay); }
 .menu-card-image img { height: 100%; object-fit: cover; transition: transform .55s var(--ease); }
 .menu-card:hover .menu-card-image img { transform: scale(1.045); }
 .menu-card-body { min-height: 132px; padding: 19px 20px 21px; }
-.menu-card-title { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; min-height: 29px; }
+.menu-card-meta { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 10px; color: var(--muted); font-size: 9px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.menu-status { display: inline-flex; align-items: center; gap: 6px; color: var(--clay); }
+.menu-status > span { width: 7px; height: 7px; flex: 0 0 7px; border-radius: 50%; background: var(--brass); }
+.menu-card-title { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; min-height: 29px; }
 .menu-card h3 { margin-bottom: 9px; color: var(--ink); font-family: var(--font-display); font-size: 21px; font-weight: 600; letter-spacing: -.02em; }
 .menu-price { flex: 0 0 auto; color: var(--clay); font-size: 11px; font-weight: 700; }
 .menu-card p { min-height: 44px; margin-bottom: 0; color: var(--muted); font-size: 12px; line-height: 1.8; }
@@ -273,6 +276,8 @@ h2 em { color: var(--clay); }
     .menu-grid { grid-template-columns: 1fr; gap: 17px; }
     .menu-card-image { height: 205px; }
     .menu-card-body { min-height: 0; }
+    .menu-card-title { flex-direction: column; gap: 4px; }
+    .menu-card h3 { line-height: 1.25; }
     .menu-card p { min-height: 0; }
     .menu-card-note { margin-top: 14px; }
     .story-section { grid-template-columns: 1fr; }

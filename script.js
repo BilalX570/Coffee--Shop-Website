@@ -254,7 +254,7 @@ contactForm.addEventListener("submit", (event) => {
 
     const subject = encodeURIComponent(`Message for Kamole Coffee House from ${name}`);
     const body = encodeURIComponent(`${message}\n\nFrom: ${name}\nEmail: ${email}`);
-    window.location.href = `mailto:bilalmuktar192@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:kamolecoffee@gmail.com?subject=${subject}&body=${body}`;
 });
 
 document.getElementById("currentYear").textContent = String(new Date().getFullYear());
